@@ -15,6 +15,7 @@ export const Register = (props) => {
    
     return (
     <div className='auth-form-container'>
+        <h2>Regiser</h2>
         <form onSubmit={handleSubmit}>
             <label className='register-form'for='name'>Full name</label>
             <input value={name} name='name' id='name' placeholder='full name'/>
