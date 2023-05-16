@@ -1,4 +1,5 @@
 import react,{ useState } from "react";
+import Dashboard from'./Dashboard';
 
 
 export const Register = (props) => {
@@ -22,7 +23,7 @@ export const Register = (props) => {
             <label for='username'>username</label>
             <input value='username' type='username' placeholder='your username' id='username' name='username'/>
             <label for='password'>password</label>
-            <input type='password' placeholder='*******' id='password' name='password'/>
+            <input value={password} onChange={(e)=> setPassword(e.target.value)}type='password' placeholder='*******' id='password' name='password'/>
             <button type='submit'>Log In</button>
         </form>
         <button className='link-btn'onClick ={() => props.onFormSwitch('Login')}>Already have an account?LogIn here</button>

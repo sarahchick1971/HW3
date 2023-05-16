@@ -3,6 +3,7 @@ import './App.css';
 import React,{useState} from 'react';
 import {Login} from './Login';
 import {Register} from './Register';
+import {Dashboard} from './Dashboard'
 
 function App() {
   const [currentForm, setCurrentForm]=useState('Login');
