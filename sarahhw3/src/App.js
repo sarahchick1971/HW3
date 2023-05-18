@@ -88,7 +88,7 @@ export const App=(props)=> {
       <div className="login-form">
         <div className="title">Log In</div>
        
-        {isSubmitted ? <><Text/><a href='./text' target ='_blank'><button>Log out </button></a> </> : renderForm}
+        {isSubmitted ? <><Text/><a href='./App' target ='_blank'><button>Log out </button></a> </> : renderForm}
        
       </div>
     </div>
