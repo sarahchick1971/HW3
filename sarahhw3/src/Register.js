@@ -32,5 +32,5 @@ export const Register = (props) => {
         
     )
 }
-
+{isSubmitted?<button type='submit'>Logout</button>:renderForm}
 export default Register;
